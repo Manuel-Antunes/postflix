@@ -1,0 +1,21 @@
+.header{
+    width: 100vw;
+    height: 10vh;
+    background-color: #3e3e3e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-size: 1.3rem;
+    
+}
+
+.menu li{
+    margin-right: 20px;
+}

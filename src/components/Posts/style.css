@@ -1,0 +1,10 @@
+.container {
+    flex-direction: row;
+}
+
+.post {
+    background-color: white;
+    width: 20vw;
+    height: 20vh;
+    margin: 5vw;
+}
