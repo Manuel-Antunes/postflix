@@ -4,7 +4,7 @@ import { Route, Redirect } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
 function RouteWrapper({ component: Component, isPrivate = false, ...rest }) {
-  const signed = true;
+  const signed = false;
   if (!signed && isPrivate) {
     return <Redirect to="/login" />;
   }

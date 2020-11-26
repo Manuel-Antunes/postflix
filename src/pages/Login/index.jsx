@@ -1,16 +1,16 @@
 import React from 'react';
-import Header from '../../components/Header/index';
-import Posts from '../../components/Posts/index';
-
-// import { Container } from './styles';
+import {Container, LoginCenter} from './style.jsx';
 
 function Dashboard() {
   return (
-    <div>
-      <Header name="Login" itens={['Login', 'Configurações']}></Header>
-      <Posts></Posts><Posts></Posts><Posts></Posts><Posts></Posts><Posts></Posts><Posts></Posts><Posts></Posts><Posts></Posts>v
+    <Container>
+      <LoginCenter>
+        <input type="email" placeholder="Digite Seu E-mail"></input>
+        <input type="password" placeholder="Digite Sua Senha"></input><br></br>
+        <button>Entrar</button>
+      </LoginCenter>
+    </Container>
     
-    </div>
   )
 }
 
