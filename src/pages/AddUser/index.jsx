@@ -1,5 +1,6 @@
 import React from 'react';
 import { Form } from '@rocketseat/unform';
+import GoogleButton from '~/components/GoogleButton';
 
 function AddUser() {
   return (
@@ -13,7 +14,9 @@ function AddUser() {
         <input type="bolean" id="isAuctor"/>
         <label htmlFor=""></label>
         <input type="password" id="password"/>
+        <button type="submit" id="button">Cadastrar</button>
       </Form>
+      <GoogleButton />
     </>
     
   )

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, LoginCenter } from './style.jsx';
 import { Form, Input } from '@rocketseat/unform';
+import Google from '../../components/GoogleButton';
 
 function Dashboard() {
   function submitHandler(data) {
@@ -15,6 +16,7 @@ function Dashboard() {
         <Input name="password" type="password" id="password" />
         <button type="submit">Entrar</button>
       </Form>
+      <Google />
     </Container>
   );
 }
